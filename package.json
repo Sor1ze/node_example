@@ -1,0 +1,27 @@
+{
+  "name": "node_example",
+  "version": "1.0.0",
+  "description": "Учебный проект, серверное приложение",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "app:build": "tsc",
+    "app:start": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sor1ze/node_example.git"
+  },
+  "author": "Sorize",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sor1ze/node_example/issues"
+  },
+  "homepage": "https://github.com/Sor1ze/node_example#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "nodemon": "^2.0.7",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.3"
+  }
+}
